@@ -1,0 +1,244 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.lamp-road1 {
+    top: 30%;
+    left: 30%;
+    transform: rotate(90deg);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    height: auto;
+}
+
+.lamp-road1 .green {
+    background-color: green;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road1 .yellow {
+    background-color: yellow;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road1 .red {
+    background-color: red;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+/* ROAD 2 */
+.lamp-road2 {
+    top: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    height: auto;
+}
+
+.lamp-road2 .green {
+    background-color: green;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road2 .yellow {
+    background-color: yellow;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road2 .red {
+    background-color: red;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* ROAD 3 */
+.lamp-road3 {
+    top: 30%;
+    right: 30%;
+    transform: rotate(90deg);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    height: auto;
+}
+
+.lamp-road3 .green {
+    background-color: green;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road3 .yellow {
+    background-color: yellow;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road3 .red {
+    background-color: red;
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOT ACTIVE */
+
+/* ROAD 1 */
+.lamp-road1 .green.notActive {
+    background-color: green;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road1 .yellow.notActive {
+    background-color: yellow;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road1 .red.notActive {
+    background-color: red;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+
+/* ROAD 2 */
+.lamp-road2 .green.notActive {
+    background-color: green;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road2 .yellow.notActive {
+    background-color: yellow;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road2 .red.notActive {
+    background-color: red;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+/* ROAD 3 */
+.lamp-road3 .green.notActive {
+    background-color: green;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road3 .yellow.notActive {
+    background-color: yellow;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.lamp-road3 .red.notActive {
+    background-color: red;
+    opacity: .3;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
